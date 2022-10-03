@@ -16,7 +16,9 @@ h1 {
 span {
     color:blueviolet;
 }
-
+.main-heading{
+    color: pink;
+}
 .container {
     box-shadow: 0 0 20px gray; 
     width: 960px;
