@@ -24,6 +24,9 @@
             <main>
                 <section>
                     <h2> O mnie</h2>
+                    <button id="first-button">
+                        Kliknij mnie!
+                    </button>
 
                     <p>
                             Mam na imię <b>Norbert</b>. Bardzo lubię suchać muzyki i biegać po lasach z plastikowymi karabinami.
@@ -80,5 +83,17 @@
                 </section>
             </main>
         </div>
+        <script>
+        const button = document.querySelector("#first-button")
+        console.log(button)
+        const niewiem = ()=>{
+            alert("Hej tutaj alert")  
+        }
+        button.addEventListener("click", niewiem)
+        
+        
+        
+        // alert("Hej tutaj alert")
+        </script>
     </body>
 </html>
